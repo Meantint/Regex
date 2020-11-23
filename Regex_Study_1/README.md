@@ -97,6 +97,8 @@ print("case 1 =", answer)
 - `\.`는 마침표 문자 자체와 일치한다는 의미이다.
 
 ```python
+import re
+
 # case 2
 text = "sales.xls sales1.xls orders3.xls sales2.xls sales3.xls apac1.xls europe2.xls na1.xls na2.xls sa1.xls"
 regex = re.compile(".a.\.")  # 진짜 마침표 '.'를 찾기 위해 역슬래시를 붙여준다.
